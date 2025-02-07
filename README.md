@@ -1,18 +1,12 @@
 # Tic Tac Toe
 
-## Live Website 
-
-
 ## Description
+A simple React Tic-Tac-Toe game designed to reinforce state management and event handling. Players take turns marking the board, with the game determining the winner or a draw. This project helps practice managing component state, handling user interactions, and rendering dynamic UI updates.
 
 ## Table of Contents
-- [App Demo](#app-demo)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Questions](#questions)
-
-## App Demo
-
 
 
 ## Installation
