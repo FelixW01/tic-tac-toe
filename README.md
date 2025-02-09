@@ -3,6 +3,25 @@
 ## Description
 A simple React Tic-Tac-Toe game designed to reinforce state management and event handling. Players take turns marking the board, with the game determining the winner or a draw. This project helps practice managing component state, handling user interactions, and rendering dynamic UI updates.
 
+### Component, reusable pieces of UI
+Game Component: Handles the game logic, history tracking, and winner determination.
+
+Board Component: Displays the 3x3 grid and manages individual squares.
+
+Square Component: Represents each square and allows users to make moves.
+
+### Props, allow components to receive data from their parent
+The Game component passes the current board state to the Board component as a prop.
+
+The Board component passes individual square values to the Square components.
+
+### State, data that React tracks and updates when changed
+Which player’s turn it is (X or O)
+
+The game board (current squares array)
+
+Move history for undo functionality
+
 ## Table of Contents
 - [App Demo](#app-demo)
 - [Installation](#installation)
